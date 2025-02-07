@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: static-website-container
-        image: sandeep3414/website:latest
+        image: sandeep3414/website:v1
         ports:
         - containerPort: 8000  # Port on the container
 
